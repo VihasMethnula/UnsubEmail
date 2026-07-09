@@ -27,6 +27,12 @@ A small Python script that scans your Gmail inbox for newsletter/marketing email
 pip install requests beautifulsoup4 python-dotenv
 ```
 
+If virtual environemnt errors are shown use these commands
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
 ## Setup
 
 ### 1. Create a Google App Password
