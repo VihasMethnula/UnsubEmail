@@ -24,7 +24,7 @@ A small Python script that scans your Gmail inbox for newsletter/marketing email
 ### Python packages
 
 ```bash
-pip install requests beautifulsoup4 python-dotenv
+pip install -r requirements.txt
 ```
 
 If virtual environemnt errors are shown use these commands
@@ -65,7 +65,7 @@ cd UnsubEmail
 python -m venv venv
 source venv/bin/activate      # on Windows: venv\Scripts\activate
 
-pip install requests beautifulsoup4 python-dotenv
+pip install -r requirements.txt
 # create your .env file as described above
 python main.py
 ```
