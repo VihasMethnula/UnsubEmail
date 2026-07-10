@@ -57,8 +57,6 @@ PASSWORD=your_16_character_app_password
 
 ## Usage
 
-> 💡 It's recommended to run this script inside a Python **virtual environment** rather than your global Python install, to keep dependencies isolated.
-
 ```bash
 git clone https://github.com/VihasMethnula/UnsubEmail.git
 cd UnsubEmail
