@@ -74,6 +74,17 @@ def save_links(links):
     with open("links.txt", "w") as f:
         f.write("\n".join(links))
 
+def print_banner():
+    banner = """
+▗▖ ▗▖▗▖  ▗▖ ▗▄▄▖▗▖ ▗▖▗▄▄▖     ▗▄▄▄▖▗▖  ▗▖ ▗▄▖ ▗▄▄▄▖▗▖   
+▐▌ ▐▌▐▛▚▖▐▌▐▌   ▐▌ ▐▌▐▌ ▐▌    ▐▌   ▐▛▚▞▜▌▐▌ ▐▌  █  ▐▌   
+▐▌ ▐▌▐▌ ▝▜▌ ▝▀▚▖▐▌ ▐▌▐▛▀▚▖    ▐▛▀▀▘▐▌  ▐▌▐▛▀▜▌  █  ▐▌   
+▝▚▄▞▘▐▌  ▐▌▗▄▄▞▘▝▚▄▞▘▐▙▄▞▘    ▐▙▄▄▖▐▌  ▐▌▐▌ ▐▌▗▄█▄▖▐▙▄▄▖
+                                     
+"""
+    print(banner)
+
+print_banner()
 links = search_inbox()
 for link in links:
     click_link(link)
