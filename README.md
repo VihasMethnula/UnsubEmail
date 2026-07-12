@@ -2,6 +2,8 @@
 
 A small Python script that scans your Gmail inbox for newsletter/marketing emails and automatically visits their "unsubscribe" links for you — so you don't have to click "unsubscribe" a hundred times by hand.
 
+<img width="733" height="125" alt="image" src="https://github.com/user-attachments/assets/1bb06730-af4f-49c6-bc37-f819d64955de" />
+
 ## What it does
 
 - Logs into your Gmail account via IMAP
